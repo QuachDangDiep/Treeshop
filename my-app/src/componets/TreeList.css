@@ -1,0 +1,98 @@
+/* TreeList.css */
+
+div {
+    /* max-width: 800px; */
+    margin-top: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  li h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  li p {
+    margin: 10px 0;
+    color: #666;
+    max-width: 500px;
+  }
+  
+  li img {
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    /* background-color: greenyellow; */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    /* background-color: green; */
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Thêm đường viền để dễ nhìn hơn */
+    padding: 10px;
+    border-radius: 5px; /* Bo góc cho các phần tử */
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin: 0; /* Giảm khoảng cách giữa các tiêu đề */
+    white-space: nowrap; /* Ngăn không cho tiêu đề xuống dòng */
+    overflow: hidden; /* Ẩn nội dung thừa */
+    text-overflow: ellipsis; /* Thêm dấu "..." */
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 5px 0; /* Thêm khoảng cách cho mô tả */
+    max-height: 40px; /* Giới hạn chiều cao */
+    overflow: hidden; /* Ẩn nội dung thừa */
+    text-overflow: ellipsis; /* Thêm dấu "..." */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Số dòng hiển thị */
+  }
+  
+  
+  
+  

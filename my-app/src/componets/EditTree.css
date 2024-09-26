@@ -1,0 +1,25 @@
+.edit-tree-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .edit-tree-form input {
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  .edit-tree-form button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-tree-form button[type="button"] {
+    background-color: #f44336;
+  }
+  
