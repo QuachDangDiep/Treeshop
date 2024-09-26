@@ -92,6 +92,26 @@ div {
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2; /* Số dòng hiển thị */
   }
+  h3 {
+    font-size: 1.5rem;
+    margin: 0; /* Giảm khoảng cách giữa các tiêu đề */
+    white-space: normal; /* Đảm bảo chữ có thể xuống dòng */
+    overflow-wrap: break-word; /* Cho phép xuống dòng tại điểm thích hợp */
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 5px 0; /* Thêm khoảng cách cho mô tả */
+    max-height: 60px; /* Giới hạn chiều cao nếu cần */
+    overflow: hidden; /* Ẩn nội dung thừa */
+    text-overflow: ellipsis; /* Thêm dấu "..." nếu cần */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Số dòng hiển thị */
+    overflow-wrap: break-word; /* Cho phép xuống dòng tại điểm thích hợp */
+  }
+  
+    
   
   
   
